@@ -1,3 +1,7 @@
+function PrintNumber(){
+	$("body").append("<li>"+number+"</li>");
+}
+
 for (var number = 1; number<=100;number++){
 	if ((number%3 === 0)&&(number%5 === 0))
 	{
@@ -17,5 +21,6 @@ for (var number = 1; number<=100;number++){
 	}
 }
 
-$("body").append("<li>"+number+"</li>");
+
+
 
