@@ -1,23 +1,23 @@
 function PrintNumber(){
-	$("body").append("<li>"+number+"</li>");
+	$("body").append("<li>"+PrintNumber+"</li>");
 }
 
 for (var number = 1; number<=100;number++){
 	if ((number%3 === 0)&&(number%5 === 0))
 	{
-		console.log("fizzbuzz");
+		PrintNumber("fizzbuzz");
 	}
 	else if (number%5 === 0)
 	{
-		console.log("buzz");
+		PrintNumber("buzz");
 	}
 	else if (number%3 === 0)
 	{
-		console.log("fizz");
+		PrintNumber("fizz");
 	}
 	else
 	{
-		console.log(number);
+		PrintNumber(number);
 	}
 }
 
