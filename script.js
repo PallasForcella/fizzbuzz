@@ -1,5 +1,5 @@
-function PrintNumber(){
-	$("body").append("<li>"+PrintNumber+"</li>");
+function PrintNumber(number){
+	$("body").append("<li>"+number+"</li>");
 }
 
 for (var number = 1; number<=100;number++){
